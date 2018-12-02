@@ -19,3 +19,12 @@ a. This keyword can either be a number (from the results of suggest) or a restau
 3. @apollo address _keyword_
 a. This keyword can be an address, postal code, landmark, or anything that Google
 can return results with.
+
+## Installation and Running
+1. In root, run npm install to install all packages
+2. Provide your own authentication tokens for Slack Bot, Yelp Fusion and Google Geocode.
+3. In root, run npm start to start the Slack Bot
+4. To run deploy, sign up for a heroku account and do the following:
+a. In root, run heroku create
+b. In root, run git push heroku master
+c. In root, run heroku open and copy the new events link into Slack Developer Console
