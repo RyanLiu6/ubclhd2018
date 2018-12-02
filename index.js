@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const slackEventsApi = require('@slack/events-api');
 const SlackClient = require('@slack/client').WebClient;
 const express = require('express');

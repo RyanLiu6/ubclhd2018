@@ -1,2 +1,2 @@
-# ubclhd2018
-let's yeet that yeast boyes
+# UBC Local Hack Day 2018
+Let's yeet this yeast boyes
